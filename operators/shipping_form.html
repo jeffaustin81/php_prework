@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Shipping info</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter shipping specifications below...</h1>
+
+        <form action="shipping_price.php" method="get">
+            <div class="form-group">
+                <label for="first_number">Weight in pounds</label>
+                <input id="first_number" name="first_number" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="second_number">Distance in miles</label>
+                <input id="second_number" name="second_number" class="form-control" type="number">
+            </div>
+            <button type="submit" class="btn">Go!</button>
+        </form>
+
+    </div>
+</body>
+</html>

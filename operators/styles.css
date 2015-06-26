@@ -1,0 +1,53 @@
+.order {
+    margin-left: 50px;
+}
+
+.heading {
+    color: darkblue;
+    font-family: Raleway;
+    font-weight: 200;
+}
+#downtown {
+    color: tomato;
+    font-family: Raleway;
+    font-weight: 100;
+}
+#northwest {
+    color: firebrick;
+    font-family: Raleway;
+    font-weight: 100;
+}
+#south {
+    color: darkorange;
+    font-family: Raleway;
+    font-weight: 100;
+}
+#westlinn {
+    color: tan;
+    font-family: Raleway;
+    font-weight: 100;
+}
+#card {
+  border: 3px solid black;
+  min-width: 400px;
+  min-height: 200px;
+  font-size: 30px;
+  font-family: helvetica;
+}
+
+.card_header {
+  margin-left: 10px;
+}
+
+.card_text {
+  margin-top: 35px;
+  text-align: center;
+  font-style: italic;
+}
+
+.contact {
+  margin-top: 35px;
+  margin-right: 10px;
+  text-align: right;
+  font-style: bold;
+}

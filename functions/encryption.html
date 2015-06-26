@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Encrypt Your Messages</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Type in three secret message you would like to encode!</h1>
+        <form action="encryption.php">
+            <div class="form-group">
+                <label for="phrase1">First message to encrypt</label>
+                <input id="phrase1" name="phrase1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="phrase2">Second message to encrypt</label>
+                <input id="phrase2" name="phrase2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="phrase3">Third message to encrypt</label>
+                <input id="phrase3" name="phrase3" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn-success">Send</button>
+        </form>
+    </div>
+</body>
+</html>
