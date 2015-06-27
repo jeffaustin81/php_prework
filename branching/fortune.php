@@ -11,7 +11,7 @@
             return "Luck will shine upon you!";
         }
         elseif (strtoupper($month) = "APRIL") {
-            return "A golden egg of opportunity falls into your lap this month.";
+            return "A golden egg of opportunity will fall into your lap.";
         }
         elseif (strtoupper($month) = "MAY") {
             return "Never fear! The end of something marks the start of something new.";
