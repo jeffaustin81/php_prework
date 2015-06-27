@@ -1,6 +1,5 @@
 <?php
     $temp = $_GET ["temp"];
-    $favorite_number = rand(1, 20);
     $message = tempResponse($temp);
 
     function tempResponse($temp)
