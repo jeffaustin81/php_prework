@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Fortune Teller</title>
 </head>
 <body>
-
+    <div class="container">
+        <h1>Give me the month you were born and I'll give you a fortune!</h1>
+        <form action="fortune.php">
+            <div class="form-group">
+                <label for="month">Enter your birth month</label>
+                <input id="month" name="month" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn-success">Go!</button>
+        </form>
+    </div>
 </body>
 </html>

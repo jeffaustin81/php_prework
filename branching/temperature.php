@@ -25,10 +25,8 @@
     <title>How hot is it?</title>
 </head>
 <body>
-
     <div class="container">
-
         <h1><?php echo $message;?></h1>
-
+    </div>
 </body>
 </html>

@@ -1,4 +1,7 @@
 <?php
+    $month = $_GET["month"];
+    $fortune = yourFortune($month);
+
     function yourFortune($month)
     {
         if (strtoupper($month) == "JANUARY") {
@@ -37,5 +40,21 @@
         elseif (strtoupper($month) == "DECEMBER") {
             return "You will make change for the better.";
         }
+        else {
+            return "Error: You didn't enter your birth month!";
+        }
     }
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Your Fortune</title>
+</head>
+<body>
+    <div class="container">
+        <h1><?php echo $fortune; ?></h1>
+    </div>
+</body>
+</html>
