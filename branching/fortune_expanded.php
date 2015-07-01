@@ -1,7 +1,7 @@
 <?php
     $month = $_GET["month"];
-    $color = $_GET["color"]
-    $color_fortune = colorFortune($color);
+    $color = $_GET["color"];
+    $colorFortune = color_fortune($color);
     $fortune = yourFortune($month);
 
     function yourFortune($month)
@@ -47,7 +47,7 @@
         }
     }
 
-    function colorFortune($color)
+    function color_fortune($color)
     {
         if (strtoupper($color) == "RED") {
             return "Your ambitions will become real and ";
@@ -90,7 +90,7 @@
 </head>
 <body>
     <div class="container">
-        <h1><?php echo $color_fortune . $fortune; ?></h1>
+        <h1><?php echo $colorFortune . $fortune; ?></h1>
     </div>
 </body>
 </html>
