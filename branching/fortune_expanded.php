@@ -7,40 +7,40 @@
     function yourFortune($month)
     {
         if (strtoupper($month) == "JANUARY") {
-            return "All of your New Years resolutions will come true!";
+            return "all of your New Years resolutions will come true!";
         }
         elseif (strtoupper($month) == "FEBRUARY") {
-            return "You will fall in love with a special someone!";
+            return "you will fall in love with a special someone!";
         }
         elseif (strtoupper($month) == "MARCH") {
-            return "Luck will shine upon you!";
+            return "luck will shine upon you!";
         }
         elseif (strtoupper($month) == "APRIL") {
-            return "A golden egg of opportunity will fall into your lap.";
+            return "a golden egg of opportunity will fall into your lap.";
         }
         elseif (strtoupper($month) == "MAY") {
-            return "Never fear! The end of something marks the start of something new.";
+            return "never fear! The end of something marks the start of something new.";
         }
         elseif (strtoupper($month) == "JUNE") {
-            return "The sun will shine on you if you let it.";
+            return "the sun will shine on you if you let it.";
         }
         elseif (strtoupper($month) == "JULY") {
-            return "You can’t steal second base and keep your foot on first.";
+            return "you can’t steal second base and keep your foot on first.";
         }
         elseif (strtoupper($month) == "AUGUST") {
-            return "You will be sharing great news with all the people you love.";
+            return "you will be sharing great news with all the people you love.";
         }
         elseif (strtoupper($month) == "SEPTEMBER") {
-            return "You have the power to write your own fortune.";
+            return "you have the power to write your own fortune.";
         }
         elseif (strtoupper($month) == "OCTOBER") {
-            return "You will be successful in your work.";
+            return "you will be successful in your work.";
         }
         elseif (strtoupper($month) == "NOVEMBER") {
-            return "You will enjoy good health; you will be surrounded by luxury.";
+            return "you will enjoy good health; you will be surrounded by luxury.";
         }
         elseif (strtoupper($month) == "DECEMBER") {
-            return "You will make change for the better.";
+            return "you will make change for the better.";
         }
         else {
             return "Error: You didn't enter your birth month!";
@@ -50,31 +50,31 @@
     function colorFortune($color)
     {
         if (strtoupper($color) == "RED") {
-            return "";
+            return "Your ambitions will become real and ";
         }
         elseif (strtoupper($color) == "BLUE") {
-            return "";
+            return "You will experience trust and loyalty in your life and ";
         }
         elseif (strtoupper($color) == "PINK") {
-            return "";
+            return "You will experience unconditional love and ";
         }
         elseif (strtoupper($color) == "PURPLE") {
-            return "";
+            return "Your creativity will shine through and ";
         }
         elseif (strtoupper($color) == "WHITE") {
-            return "";
+            return "You will acheive a sense of wholeness in your life and ";
         }
         elseif (strtoupper($color) == "BLACK") {
-            return "";
+            return "You will uncover a mystery of life and ";
         }
         elseif (strtoupper($color) == "ORANGE") {
-            return "";
+            return "You will meet new people that will bring otimism to your life and ";
         }
         elseif (strtoupper($color) == "GREEN") {
-            return "";
+            return "You will find a four leaf clover that will bring you luck, balance, growth, and ";
         }
         elseif (strtoupper($color) == "YELLOW") {
-            return "";
+            return "You will learn new skills that will help you advance in your career ";
         }
         else {
             return "I don't know that color! But, ";
