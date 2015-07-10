@@ -12,14 +12,15 @@ $answer = foodAnswer($food);
 
 
 function foodAnswer($food) {
-    if ($food = strtoupper("fish") && $food = strtoupper("fish"))
+
+    if (strtoupper($food) == "FISH" && strtoupper($food) == "FISH")
     {
         return "Ella can't eat that!";
     }
-    elseif ($food = strtoupper("pineapple") && $food = strtoupper("pineapple"))
+    elseif (strtoupper($food) == "PINEAPPLE" && strtoupper($food) == "PINEAPPLE")
     {
         return "Ella can't eat that!";
-        # code...
+
     }
     else {
         return "Ella can eat that!";
