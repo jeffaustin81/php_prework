@@ -1,5 +1,5 @@
 <?php
-    $groceries = array("eggs", "milk", "bread");
+    $groceries = array("eggs", "milk", "bread", "apples", "bananas", "fruit rollups", "steak", "kale", "pasta", "flour", "sugar", "vanilla");
 ?>
 
 <!DOCTYPE html>
@@ -11,10 +11,10 @@
 <body>
     <div class="container">
     <h1>My Grocery List</h1>
-    <ul>
+    <ul class="list-group">
         <?php
             foreach ($groceries as $purchase) {
-                echo "<li>" . $purchase . "</li>";
+                echo '<li class="list-group-item">' . $purchase . "</li>";
             }
         ?>
     </ul>
