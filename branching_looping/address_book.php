@@ -27,7 +27,7 @@
         <ul>
           <?php
               foreach ($address_book as $name => $address) {
-                if ($name) {
+                if ($name && $address) {
                     echo "<h3>" . "$name: $address" . "</h3>";
                 }
             }
