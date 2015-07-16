@@ -9,11 +9,13 @@
     $person3_address = $_GET["person3_address"];
     $person4_address = $_GET["person4_address"];
     $person5_address = $_GET["person5_address"];
+    $person6_address = $_GET["person6_address"];
     $address_book[$person1_name] = $person1_address;
     $address_book[$person2_name] = $person2_address;
     $address_book[$person3_name] = $person3_address;
     $address_book[$person4_name] = $person4_address;
     $address_book[$person5_name] = $person5_address;
+    $address_book[$person6_name] = $person6_address;
 ?>
 <!DOCTYPE html>
 <html>
