@@ -27,8 +27,10 @@
         <ul>
           <?php
               foreach ($address_book as $name => $address) {
-                  echo "<li>" . "$name: $address" . "</li>";
-              }
+                if ($name) {
+                    echo "<h3>" . "$name: $address" . "</h3>";
+                }
+            }
           ?>
         </ul>
     </div>
