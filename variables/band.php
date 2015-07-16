@@ -1,23 +1,27 @@
 <?php
-    $band_name = "";
-    $band_member1 = "";
-    $band_member2 = "";
-    $band_member3 = "";
-    $band_member4 = "";
-    $band_member5 = "";
-    $band_member6 = "";
-    $band_genre = "";
-    $band_img = "";
+    $band_name = "Rolling Stones";
+    $band_member1 = "Mick Jagger";
+    $band_member2 = "Keith Richards";
+    $band_member3 = "Charlie Watts";
+    $band_member4 = "Ronnie Wood";
+    $band_member5 = "Brian Jones";
+    $band_member6 = "Ian Stewart";
+    $band_genre = "Rock N Roll";
+    $band_img = "rolling_stones.jpg";
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <title>We love <?php echo $band_name; ?>!</title>
 </head>
 <body>
+    <div class="container">
     <h1>Welcome! We are fans of <?php echo $band_name; ?>!</h1>
-<!-- Application unfinished. Still in progress. -->
+    <p><?php echo $band_name;?> is the best band in the world! Members include <?php echo $band_member1 . ", " . $band_member2 . ", " . $band_member3 . ", " . $band_member4 . ", " . $band_member5 . ", " . $band_member6 . "."; ?> The band has been a powerhouse in the world of <?php echo $band_genre; ?>. <?php echo "<img src='$band_img' alt="image" />";  ?>
+    </p>
+    </div>
+    <!-- Application unfinished. Still in progress. -->
 </body>
 </html>
