@@ -1,5 +1,5 @@
 <?php
-    $authors = array('James Patterson', 'Stephen King', 'Ken Follet', 'Dean Koontz', 'John Grisham', 'Dan Brown');
+    $authors = array('James Patterson', 'Stephen King', 'Ken Follet', 'Dean Koontz', 'John Grisham', 'Dan Brown', 'David McCullough');
 ?>
 
 <!DOCTYPE html>
