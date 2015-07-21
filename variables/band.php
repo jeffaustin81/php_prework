@@ -1,5 +1,5 @@
 <?php
-    $band_name = "Rolling Stones";
+    $band_name = "The Rolling Stones";
     $band_member1 = "Mick Jagger";
     $band_member2 = "Keith Richards";
     $band_member3 = "Charlie Watts";
@@ -19,9 +19,10 @@
 <body>
     <div class="container">
     <h1>Welcome! We are fans of <?php echo $band_name; ?>!</h1>
-    <p><?php echo $band_name;?> is the best band in the world! Members include <?php echo $band_member1 . ", " . $band_member2 . ", " . $band_member3 . ", " . $band_member4 . ", " . $band_member5 . ", " . $band_member6 . "."; ?> The band has been a powerhouse in the world of <?php echo $band_genre; ?>. <?php echo "<img src='$band_img' alt="image" />";  ?>
-    </p>
+    <h3>
+        <?php echo $band_name;?> are the best band in the world! Members include <?php echo $band_member1 . ", " . $band_member2 . ", " . $band_member3 . ", " . $band_member4 . ", " . $band_member5 . ", " . $band_member6 . "."; ?> The band has been a powerhouse in the world of <?php echo $band_genre; ?>.
+    </h3>
+        <img src= "<?php echo $band_img; ?>" alt="test"/>
     </div>
-    <!-- Application unfinished. Still in progress. -->
 </body>
 </html>
